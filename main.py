@@ -13,8 +13,14 @@ import os
 # else:
 #     print("File does not exist.")
 
-try:
-    with open("tes.txt") as file:
-        print(file.read())
-except FileNotFoundError:
-    print("File not found.")
+# # Reading a file
+# try:
+#     with open("tes.txt") as file:
+#         print(file.read())
+# except FileNotFoundError:
+#     print("File not found.")
+
+text = "This is a test file.\nThis is the second line."
+
+with open("test2.txt", "w") as file:
+    file.write(text)
