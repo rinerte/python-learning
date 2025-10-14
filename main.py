@@ -1,2 +1,1 @@
-hello = "Hi"
-print(hello)
+help("modules")
